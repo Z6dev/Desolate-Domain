@@ -57,6 +57,8 @@ func hsvToRGB(h, s, v float64) (int, int, int) {
 }
 
 func main() {
+	// Use Program's Args as string to display, if not exists it just displays THY END IS NOW!
+	// Minos Prime.
 	text := strings.Join(os.Args[1:], " ")
 	if strings.TrimSpace(text) == "" {
 		text = "THY END IS NOW!"
