@@ -65,6 +65,7 @@ func main() {
 	fmt.Print("\x1b[?25l")
 	defer fmt.Print("\x1b[0m\x1b[?25h\n")
 
+	// Makes sure the Terminal "Cursor" doesn't disappear when quitting
 	sigc := make(chan os.Signal, 1)
 	signal.Notify(sigc, os.Interrupt, syscall.SIGTERM)
 	go func() {
