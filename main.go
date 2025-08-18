@@ -59,7 +59,7 @@ func hsvToRGB(h, s, v float64) (int, int, int) {
 func main() {
 	text := strings.Join(os.Args[1:], " ")
 	if strings.TrimSpace(text) == "" {
-		text = "Animated Rainbow Text"
+		text = "THY END IS NOW!"
 	}
 
 	fmt.Print("\x1b[?25l")
