@@ -73,7 +73,7 @@ func main() {
 	go func() {
 		<-sigc
 
-		fmt.Print("\x1b[0m\x1b[?25h\n")
+		fmt.Print("\x1b[0m\x1b[?25h\n\033[2J\033[H")
 		os.Exit(0)
 	}()
 
