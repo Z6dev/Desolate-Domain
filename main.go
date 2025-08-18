@@ -86,7 +86,7 @@ func main() {
 			fmt.Printf("\x1b[38;2;%d;%d;%dm%c", rr, gg, bb, r)
 		}
 		fmt.Print("\x1b[0m")
-		time.Sleep(50 * time.Millisecond)
+		time.Sleep(20 * time.Millisecond)
 		frame++
 	}
 }
