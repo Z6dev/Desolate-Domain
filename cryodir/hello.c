@@ -1,12 +1,13 @@
 #include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
 
 int main() {
-    char name[50];
-
-    printf("Insert Your Name: ");
-    fgets(name, sizeof(name), stdin);
-    printf("\nHello, %s", name);
-
+    for (int i = 1; i <= 10; i++) {
+        system("clear");
+        printf("%d\n", i);
+        sleep(1);
+    }
 
     return 0;
 }
