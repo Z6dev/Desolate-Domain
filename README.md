@@ -5,8 +5,8 @@ Basically garden of boredom of Mine.
 Anyways, Have fun looking at my Madness!
 
 ## List of Programs in this Repo
-- RGB Text
-- A Process you can never kill unless you close the terminal, if you try to kill the process it will go angry. (<span style="color: rgba(0, 0, 0, 0.5);">To be done</span>)
+- RGB Text (Ansi escape code stuffies)
+- A Process that meows when tried to kill (Learning signals)
 
 ## Licensing
 Everything Here is MIT Licensed.  
